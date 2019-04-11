@@ -1,2 +1,8 @@
 # geoeng-homework
-geoinnovation recruiting tool
+Satellite time series data are inherently noisy and full of gaps.  As part of our work here at Indigo we generate time series data at the county-level, where for each county there are a set of metrics generated for each date within a calendar year.  Each input file represents a single calendar year.  To enable a visualization of those data in a plotted time series, we will first like to smooth the data for all the counties using a mean across a 10-day moving window.  We would like you to code an iterator to perform the 10-day smoothing on a set of tables saved as CSV.  We expect you to use good engineering practices (scalability, documentation, tests, etc.) in the code you write to solve this problem.  The solution will include a smoothed time series of a single metric (‘mod_ndvi_mean’) in the CSV for a single year across all the US counties in the input file.  It should have the same range in dates as the input files and if possible you should not have to read in all of the files into memory at once.  
+
+Instructions:  
+1) Clone this Github repository. 
+2) Build on the skeleton Python code we have provided.  We have also provided you a test dataset in the form of CSVs inside the ‘data’ directory of this repository.
+3) Send us your answer via email, including the Python code you wrote and some rationale for the decisions you made.  The justification for using certain packages or function designs can be embedded as comments in the code or in a separate text file.  Please be prepared to answer the following question: How would you write this differently if each CSV file was tens of GB in size instead of tens of MB?
+
