@@ -1,6 +1,7 @@
 # GeoInnovation Engineering: Interview Homework
 
 > **Before You Begin**
+>
 > Spend as much time as you can on this problem but please don't spend more than a couple hours. If there is anything that you can't finish or if you have ideas on how you would improve it if you had more time, just write them up in your documentation and we'll talk about them when you come to the office.
 
 As part of our work here at Indigo, we generate time series data at the county-level where for each county there are a set of metrics generated for each date within a calendar year. Each year's worth of daily county data is stored in a separate file (e.g. `data/modis_2017.csv.gz`). This data is derived from satellite imagery and is therefore inherently noisy and full of gaps. We need to clean it up a bit before plotting/visualizing.  
